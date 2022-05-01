@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiGithubBadge,
    DiHtml5,
+   DiCss3,
   
 } from "react-icons/di";
 import {SiRedux,SiExpress } from "react-icons/si";
@@ -25,6 +26,10 @@ function Techstack() {
     <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
         <p>HTML</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <p>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
