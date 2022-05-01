@@ -4,9 +4,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  // SiVercel,
   SiNetlify,
-  SiAmazonaws,
+  // SiAmazonaws,
 } from "react-icons/si";
 
 function ToolStack() {
@@ -21,19 +21,19 @@ function ToolStack() {
         <SiPostman />
         <p>Postman</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
         <p>Amazonaws</p>
-      </Col>
+      </Col> */}
       
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
         <p>Heroku</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
         <p>Vercel</p>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
         <p>Netlify</p>
