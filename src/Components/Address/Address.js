@@ -32,14 +32,14 @@ function Address() {
             <BsTelephone/>
             <br/>
             {/* <span>+91-9074363280</span> */}
-             <a style={{textDecoration: 'none',color: 'white'}}  href="tel:+919074363280">+919074363280</a>
+             <a style={{textDecoration: 'none',color: 'white'}}  href="tel:+919074363280" target="_blank" rel="noopener noreferrer">+919074363280</a>
         </Col>
         <Col onClick={gmailRedirect} xs={4} md={2} className="tech-icons">
             <HiOutlineMailOpen/>
            <br/>
-            <a style={{textDecoration: 'none',color: 'white'}}  href="mailto:somisourabh96@gmail.com">somisourabh96@gmail.com</a>
+            <a style={{textDecoration: 'none',color: 'white'}}  href="mailto:somisourabh96@gmail.com" target="_blank" rel="noopener noreferrer" >somisourabh96@gmail.com</a>
         </Col>
-        <Col  onClick={githubRedirect} xs={4} md={2} className="tech-icons">
+        <Col  onClick={githubRedirect} xs={4} md={2} className="tech-icons" >
             <AiFillGithub/>
             <br/>
             <a style={{textDecoration: 'none',color: 'white'}}  href="https://github.com/somi-kumari" target="_blank" rel="noopener noreferrer">Github</a>
