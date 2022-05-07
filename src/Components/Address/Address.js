@@ -8,15 +8,27 @@ import {AiFillGithub , AiFillLinkedin} from "react-icons/ai"
 function Address() {
   const mobileRedirect=()=>{
      window.location.href = "tel:+91-9074363280";
+
   }
   const gmailRedirect=()=>{
-     window.location.href = "mailto:somisourabh96@gmail.com";
+    
+     const url = "mailto:somisourabh96@gmail.com"
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
   }
   const githubRedirect=()=>{
-     window.location.href = "https://github.com/somi-kumari";
+     
+ const url = "https://github.com/somi-kumari ";
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+
+
   }
    const linkedinRedirect=()=>{
-     window.location.href = "https://www.linkedin.com/in/somikumari2010/";
+     
+     const url = "https://www.linkedin.com/in/somikumari2010/"
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null;
   }
   return (
 
