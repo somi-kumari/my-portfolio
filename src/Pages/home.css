@@ -1,5 +1,5 @@
-.img-fluid{
-    width: 330px;
-    height: 330px;
+.img-fluid {
+    width: 250px;
+    /* height: 200px; */
     border-radius: 50%;
 }
