@@ -43,7 +43,7 @@ function Projects() {
               description="CB2 (Crate and Barel) is an international home decor store headquartered in Northbrook, Illinois widely deals with furnitures and decor for the modern home.A team project at Masai"
               tech="Tech-Stacks"
               techD="HTML | CSS | JavaScript | node.js | MongoDb | "
-              link="https://github.com/somi-kumari/cb2.com-clone_U4"
+              link="https://cb2clone.netlify.app/"
               a="https://github.com/somi-kumari/cb2.com-clone_U4"
             />
           </Col>
